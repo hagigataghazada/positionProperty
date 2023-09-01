@@ -1,13 +1,10 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
-a {
-  color: orange;
-}
-
-a:hover {
-  color: black;
-}
-/*# sourceMappingURL=style.css.map */
+#demo .box {
+  width: 400px;
+  height: 400px;
+  background-image: url("https://www.w3schools.com/css/img_5terre.jpg");
+}/*# sourceMappingURL=style.css.map */
