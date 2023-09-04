@@ -1,5 +1,16 @@
 #demo
-    .box
-        width: 400px
-        height: 400px
-        background-image: url("https://www.w3schools.com/css/img_5terre.jpg")
+    .minibox
+        border: 3px solid blue
+        width: 100px
+        height: 100px
+        h1
+            font-size: 18px
+
+        @media screen and ( max-width: 992px )
+            border: 5px solid yellow
+            width: 100px
+            height: 100px
+        @media screen and ( min-width: 992px )
+            border: 5px solid red
+            width: 500px
+            height: 500px
