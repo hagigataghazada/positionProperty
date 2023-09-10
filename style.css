@@ -3,18 +3,22 @@ body {
   font-weight: 500;
 }
 
+#demo .textbox {
+  width: 600px;
+}
 #demo .minibox {
   margin: 10px;
   border: 3px solid #b042b8;
   background-color: #b042b8;
   width: 150px;
   height: 150px;
-  transition: 4s;
-}
-#demo .minibox:hover {
-  border: 3px solid black;
 }
 #demo .minibox h1 {
   font-size: 14px;
   color: white;
+}
+#demo .bgc {
+  position: fixed;
+  top: 80px;
+  right: 100px;
 }/*# sourceMappingURL=style.css.map */
