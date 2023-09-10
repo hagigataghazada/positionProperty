@@ -3,9 +3,6 @@ body {
   font-weight: 500;
 }
 
-#demo .textbox {
-  width: 600px;
-}
 #demo .minibox {
   margin: 10px;
   border: 3px solid #b042b8;
@@ -19,6 +16,6 @@ body {
 }
 #demo .bgc {
   position: fixed;
-  top: 80px;
-  right: 100px;
+  top: 460px;
+  right: 900px;
 }/*# sourceMappingURL=style.css.map */
