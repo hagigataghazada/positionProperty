@@ -5,10 +5,10 @@ body {
 
 #demo .minibox {
   margin: 10px;
-  border: 3px solid #b042b8;
-  background-color: #b042b8;
-  width: 150px;
-  height: 150px;
+  border: 3px solid #277855;
+  background-color: #277855;
+  width: 130px;
+  height: 130px;
 }
 #demo .minibox h1 {
   font-size: 14px;
@@ -16,6 +16,15 @@ body {
 }
 #demo .bgc {
   position: fixed;
-  top: 460px;
-  right: 900px;
+  top: 150px;
+  left: 310px;
+  width: 125px;
+  height: 125px;
+}
+#demo .bcc {
+  position: fixed;
+  top: 10px;
+  left: 310px;
+  width: 125px;
+  height: 125px;
 }/*# sourceMappingURL=style.css.map */
