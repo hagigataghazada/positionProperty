@@ -76,4 +76,25 @@ body {
   position: absolute;
   top: 1760px;
   right: 820px;
+}
+#demo .green {
+  margin: 40px 0;
+}
+#demo .green .minibox {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  background-color: #486e41;
+  width: 300px;
+  height: 180px;
+}
+#demo .green .minibox h1 {
+  margin: 60px;
+  color: white;
+  font-size: 30px;
+}
+#demo .green .bcc {
+  position: absolute;
+  top: 2210px;
+  right: 820px;
 }/*# sourceMappingURL=style.css.map */
