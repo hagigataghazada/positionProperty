@@ -1,22 +1,25 @@
 #demo
     margin: 50px 0 0 0
-    .navy
-        .minibox
+    .minibox
+        display: flex
+        align-items: center
+        justify-content: center
+        margin: 20px 100px 50px 100px
+        width: 200px
+        height: 200px
+        background-color: #4b6489
+        border: 3px solid rgb(41, 88, 68)
+        h1
             display: flex
-            align-items: center
             justify-content: center
-            margin: 20px 100px 50px 100px
-            width: 200px
-            height: 200px
-            background-color: #4b6489
-            border: 3px solid rgb(41, 88, 68)
-            h1
-                display: flex
-                justify-content: center
-                align-items: center
-                width: 100px
-                height: 100px
-                background-color: #1b2f58
-                color: #ffff
-                font-size: 18px
-                font-weight: 15px
+            align-items: center
+            width: 100px
+            height: 100px
+            background-color: #1b2f58
+            color: #ffff
+            font-size: 18px
+            font-weight: 15px
+            transition: 2s
+            &:hover
+                width: 150px
+                height: 150px
