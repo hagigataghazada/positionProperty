@@ -15,3 +15,25 @@
             display: flex
             justify-content: center
             font-size: 18px
+
+    @media screen and ( max-width: 768px )
+        .box
+            flex-direction: column
+            .minibox
+                width: 100px
+                height: 50px
+                border-radius: 5px
+                margin: 0
+                background-color: #5d567b
+                border: 4px solid #5d567b
+
+    @media screen and ( max-width: 500px )
+        .box
+            flex-direction: column
+            .minibox
+                width: 50px
+                height: 50px
+                border-radius: 5px
+                margin: 0
+                background-color: #381935
+                border: 4px solid #381935
