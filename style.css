@@ -4,7 +4,7 @@ body {
 }
 
 #demo {
-  margin: 50px 0 0 0;
+  margin: 50px 0;
 }
 #demo .minibox {
   display: flex;
@@ -32,6 +32,21 @@ body {
   width: 150px;
   height: 150px;
 }
+@media screen and (max-width: 768px) {
+  #demo .box {
+    flex-direction: column;
+  }
+  #demo .minibox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 100px 50px 100px;
+    width: 200px;
+    height: 200px;
+    background-color: #4b6489;
+    border: 3px solid rgb(41, 88, 68);
+  }
+}
 
 #prpl .minibox {
   margin: 100px 200px 50px 200px;
@@ -52,6 +67,22 @@ body {
   justify-content: center;
   font-size: 18px;
 }
+@media screen and (max-width: 768px) {
+  #prpl .box {
+    flex-direction: column;
+  }
+  #prpl .box .minibox {
+    margin: 100px 200px 50px 200px;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #454184;
+    border: 4px solid #454184;
+  }
+  #prpl .box .minibox h1 {
+    font-weight: 10px;
+  }
+}
 
 #brwn .minibox {
   display: flex;
@@ -71,6 +102,23 @@ body {
   color: white;
   font-size: 25px;
   font-weight: 10px;
+}
+@media screen and (max-width: 768px) {
+  #brwn .box {
+    flex-direction: column;
+  }
+  #brwn .box .minibox {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #888346;
+    justify-content: center;
+    align-items: center;
+  }
+  #brwn .box .minibox h1 {
+    font-weight: 30px;
+  }
 }
 
 #blue {
