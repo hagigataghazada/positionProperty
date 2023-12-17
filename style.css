@@ -3,6 +3,9 @@ body {
   font-weight: 500;
 }
 
+#demo {
+  margin: 20px;
+}
 #demo .box {
   margin: 50px 0;
 }
@@ -34,6 +37,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   #demo .box {
+    margin: 0;
     flex-direction: column;
   }
   #demo .box .minibox {
@@ -99,6 +103,9 @@ body {
   }
 }
 
+#brwn {
+  margin: 20px;
+}
 #brwn .minibox {
   display: flex;
   margin: 100px 100px 100px 30px;
@@ -120,7 +127,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   #brwn .box {
-    margin: 20px;
+    margin: 0;
     flex-direction: column;
   }
   #brwn .box .minibox {
@@ -150,7 +157,7 @@ body {
 }
 #blue .bgc {
   position: absolute;
-  top: 1820px;
+  top: 1810px;
   right: 820px;
 }
 
@@ -172,6 +179,6 @@ body {
 }
 #grn .bcc {
   position: absolute;
-  top: 2250px;
+  top: 2240px;
   right: 820px;
 }/*# sourceMappingURL=style.css.map */
