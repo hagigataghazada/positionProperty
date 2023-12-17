@@ -4,7 +4,7 @@ body {
 }
 
 #demo {
-  margin: 20px;
+  padding: 20px;
 }
 #demo .box {
   margin: 50px 0;
@@ -102,9 +102,19 @@ body {
     border: 4px solid #381935;
   }
 }
+@media screen and (max-width: 800px) {
+  #prpl .minibox {
+    margin: 100px 200px 50px 200px;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #5d567b;
+    border: 4px solid #5d567b;
+  }
+}
 
 #brwn {
-  margin: 20px;
+  padding: 20px;
 }
 #brwn .minibox {
   display: flex;
@@ -138,9 +148,17 @@ body {
     background-color: #6c6b40;
   }
 }
+@media screen and (max-width: 800px) {
+  #brwn .minibox {
+    width: 50px;
+    height: 50px;
+    border-radius: 55%;
+    background-color: #6c6b40;
+  }
+}
 
 #blue {
-  margin: 40px 0;
+  padding: 40px 0;
 }
 #blue .minibox {
   display: flex;
@@ -157,12 +175,12 @@ body {
 }
 #blue .bgc {
   position: absolute;
-  top: 1810px;
+  top: 1830px;
   right: 820px;
 }
 
 #grn {
-  margin: 40px 0;
+  padding: 40px 0;
 }
 #grn .minibox {
   display: flex;
@@ -179,6 +197,6 @@ body {
 }
 #grn .bcc {
   position: absolute;
-  top: 2240px;
+  top: 2300px;
   right: 820px;
 }/*# sourceMappingURL=style.css.map */
